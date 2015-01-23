@@ -4,7 +4,7 @@ public class Solution {
         Set<String> visited = new HashSet<String>();
         
         queue.add(start);
-        visited.add(start);
+        visited.add(start);  
         int step = 1, curLev = 1, nextLev = 0;
         
         while(!queue.isEmpty()){
